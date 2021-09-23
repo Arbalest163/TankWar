@@ -63,6 +63,16 @@ namespace TankWar {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Background {
+            get {
+                object obj = ResourceManager.GetObject("Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TankBlue_1 {
             get {
                 object obj = ResourceManager.GetObject("TankBlue_1", resourceCulture);

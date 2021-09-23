@@ -21,7 +21,7 @@ namespace TankWar
         /// </summary>
         private int Iterator = 0;
 
-        public Bitmap background = new Bitmap(@"C:\Users\Иван\source\repos\TankWar\TankWar\Images\Background.jpg");
+        public Bitmap background = Resource1.Background;
 
         public Button AtackButton;
 
